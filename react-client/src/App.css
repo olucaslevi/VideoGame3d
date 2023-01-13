@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(36, 35, 35);
+    color: rgb(255, 251, 213);
+}
+.App{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#submit{
+    /* is a button */
+    background-color: rgb(56, 56, 185);
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 12px;
+    padding: 10px;
+}
+#username{
+    /* is a div */
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+#buttonSubmit{
+    /* is a button */
+    background-color: rgb(56, 56, 185);
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 12px;
+    padding: 10px;
+}
+#chat-input{
+    /* is a div */
+    background-color: rgb(41,41,41);
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+#chat-list{
+    /* list of messages */
+    list-style-type: none;
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    font-size: medium;
+    text-align: left;
+    border-radius: 12px;
+    padding: 10px;
+    /* set the x size of the list */
+    width: 50%;
+    /*center this 50$ */
+    margin: auto;
+    /* set the y size of the list */
+    height: 100%;
+}
